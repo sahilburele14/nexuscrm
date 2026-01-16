@@ -81,7 +81,6 @@ Use the demo credentials below to explore the app:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d65b1d47-57e0-4bdc-b242-a971825ee19b" />
 
 
-(Visuals significantly improve recruiter engagement and understanding.)
 
 🧩 Architecture & Design
 
@@ -104,14 +103,16 @@ Charts via Recharts
 ✔ Production-ready build with Vite
 ✔ Easily extendable for real API integration
 
+
 📄 License
 
 This project is licensed under the MIT License.
 
+
 📫 Connect With Me
-
 I’d love to hear your feedback or opportunities!
-📌 GitHub: https://github.com/sahilburele14
 
+
+📌 GitHub: https://github.com/sahilburele14
 📌 LinkedIn: https://www.linkedin.com/in/burelesahil/
 📌 Email: sahilburele6789@gmail.com
