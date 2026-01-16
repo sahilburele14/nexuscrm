@@ -21,15 +21,21 @@ const App = () => {
       <HashRouter>
         <Routes>
           <Route path="/login" element={<Login />} />
-          <Route path="/" element={
-            <ProtectedRoute>
-              <Layout />
-            </ProtectedRoute>
-          }>
+          <Route
+            path="/"
+            element={
+              <ProtectedRoute>
+                <Layout />
+              </ProtectedRoute>
+            }
+          >
             <Route index element={<Dashboard />} />
             <Route path="leads" element={<LeadTable />} />
             <Route path="leads/:id" element={<LeadDetail />} />
-            <Route path="settings" element={<div className="p-4">Settings Placeholder</div>} />
+            <Route
+              path="settings"
+              element={<div className="p-4">Settings Placeholder</div>}
+            />
           </Route>
         </Routes>
       </HashRouter>
